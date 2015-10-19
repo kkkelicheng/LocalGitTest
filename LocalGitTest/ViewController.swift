@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var count = 1;
+        var count = 1
+        count++
+        print("now count = \(count)")
     }
 
     override func didReceiveMemoryWarning() {
